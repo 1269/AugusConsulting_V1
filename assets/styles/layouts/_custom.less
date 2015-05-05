@@ -1,0 +1,392 @@
+// Fonts
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300|Maven+Pro|Pontano+Sans|Julius+Sans+One|Metrophobic);
+
+// Changes to Bootstrap
+.navbar {
+	margin-bottom: 0px;
+}
+.navbar-brand {
+	> img {
+		max-height: 70px;
+		padding-top: 10px;
+	}
+}
+.navbar-nav {
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	li {
+		a{
+			
+		}
+	}	
+}
+.navbar-default {
+	background-color: #FFFFFF;
+}
+
+.navbar-toggle {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.navbar-default .navbar-nav > li > a  {
+	@import url(http://fonts.googleapis.com/css?family=Roboto);
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	&:hover, &:active {color:#80abc8};
+}
+.container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.section-header {
+	font-size: 13px;
+  	line-height: 20px;
+  	text-transform: uppercase;
+  	text-align: center;
+}
+/* Home Page */ 
+
+.carousel-caption {
+	padding: 30px;
+
+	h1 {
+		font-size: 3em;
+		font-weight: 400;
+		color: #FFFFFF;
+		margin-bottom: 10px;
+		margin-left: 20px;
+  		margin-right: 20px;
+	}
+	a {
+		color: #D2E3FF;
+		font-size: 1.5em;
+		font-weight: 200;
+	}
+	a:hover {
+		color: #5E9BFF;
+		text-decoration: none;
+	}
+}
+.carousel-inner .item {
+	max-height: 700px;
+}
+.titleText {
+	@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+	font-family: 'Quicksand', sans-serif;
+	margin-bottom: 30px;
+	font-weight: 300;
+}
+#servicesBrief {
+	padding-top: 30px;
+	hr {
+		margin-top: 45px;
+		margin-bottom: 25px;
+	}
+
+	.verticals {
+		padding-top: 50px;
+  		padding-bottom: 50px;
+  		p {
+  		}
+  		h2 {
+  			border-bottom-style: solid;
+  			border-bottom-width: thin;
+  			padding: 10px;
+  			background-color: rgba(211, 238, 247, 0.55);
+  		}
+  		.icon {
+  			padding-left: 40%;
+  			padding-right: 40%;
+
+  		}
+  		a:hover {
+  			color: #5A83C8;
+  		}
+	}
+}
+
+#clients {
+	hr {
+		margin-top: 60px;
+		margin-bottom: 40px;
+	}	
+	img {
+		max-width: 130px;
+		max-height: 40px;
+		vertical-align: middle;
+		transition: all ease .55s;
+		filter: grayscale(100%);
+		-webkit-filter: grayscale(100%);
+	}
+}
+
+#testimonials {
+	margin-top: 40px;
+	hr {
+		margin-top: 60px;
+		margin-bottom: 40px;
+	}
+}
+
+#aboutBlurb {
+	padding-top: 50px;
+  	padding-bottom: 60px;
+  	background-color: white;
+  	color: black;
+  	p {
+  		font-size: 18px;
+  		margin-left: 20px;
+  		margin-right: 20px;
+  	}
+}
+
+#footer {
+	background-color: rgb(232, 232, 232);
+	.socialFooter {
+		margin: 0px auto;
+	}
+	.contactInfo {
+		margin-top: 10px;
+		padding: 10px;
+		font-size: 16px;
+	}
+}
+footer {
+	.copyright {
+		margin-top: 20px;
+		padding-bottom: 20px;
+	}
+	#socialButtons {
+		padding-top: 17px;
+		padding-bottom: 25px;
+	}
+	#address {
+
+	}
+	#careers {
+		padding-top: 15px;
+		padding-bottom: 29px;
+		@media(min-width: @screen-lg-min) {
+			padding-top: 20px;
+			padding-bottom: 35px;
+		}
+	}
+
+}
+
+/* About Us */ 
+
+#topValueProp {
+	background-color: rgb(208, 208, 208);
+	padding: 20px;
+}
+#leadership {
+	margin-bottom: 30px;
+	.augusLeader {
+		margin-bottom: 30px;
+		.overlay {
+			position: absolute;
+			width: 300px;
+			height: 300px;
+			background:linear-gradient(45deg, #71CFC0 0, #4076ac 100%);
+	               text-align:center;
+	               padding:45px 0 66px 0;
+	               opacity:0;
+	               -webkit-transition: opacity .25s ease;
+					-moz-transition: opacity .25s ease;
+	color: white;
+		}
+		:hover {
+			opacity: 1;
+		}
+		@media (max-width: @screen-sm-min){
+			.overlay {
+				opacity:1; 
+			}
+		}
+	}
+
+
+}
+
+/* Services */ 
+ .closeServices {
+ 	padding-left: 0px;
+ 	padding-right: 0px;
+ 	h2,p {
+ 		margin-left: 30px;
+ 		margin-top: 30px;
+ 		margin-right: 30px;
+ 	}
+ 	color: black;
+ 	background-color:white;
+ 	min-height: 300px;
+ 	a {
+ 		color: white;
+ 		padding: 10px;
+ 		border:solid;
+ 		margin-left: 30px;
+ 		margin-bottom: 40px;
+ 	}
+ 	.imgServices {
+ 		width: 50%;
+ 	}
+ }
+ .services {
+	 	.work-item {
+	 		height: 550px;
+	 		.business {
+			 	background-image: url(../../../../../media/for-business-service.jpg);
+			 	background-repeat: no-repeat;
+			  	background-position: center;
+			  	background-size: cover;
+			  	width: 100%;
+			  	height: 100%;
+			 };
+	 		.government {
+			 	background-image: url(../../../../../media/for-government-services.jpg);
+			 	background-repeat: no-repeat;
+			  	background-position: center;
+			  	background-size: cover;
+			  	width: 100%;
+			  	height: 100%;
+			 };
+	 		.nonprofit {
+			 	background-image: url(../../../../../media/for-nonprofit-services.jpg);
+			 	background-repeat: no-repeat;
+			  	background-position: center;
+			  	background-size: cover;
+			  	width: 100%;
+			  	height: 100%;
+			 }
+	 	
+	 	@media(max-width: @screen-lg-min){
+	 		height: 495px;
+	 		.lead{
+	 			font-size: 22px;
+	 		}
+	 	}
+	 	@media(max-width: @screen-md-min){
+	 		height: 495px;
+	 		.lead{
+	 			font-size: 19px;
+	 		}
+	 	}
+	 	@media(max-width: @screen-sm-min){
+	 		height: 500px;
+	 		.lead{
+	 			font-size: 20px;
+	 		}
+	 	}
+	 }
+ }
+ 
+ #servicesTop {
+ 	width: 90%;
+ 	margin-top: 50px;
+ 	margin-bottom: 50px;
+ }
+
+ #caseStudyHeader {
+ 	h1 {
+ 		position: absolute;
+ 	}
+ }
+
+/* Join Us */
+#valuePropTitle {
+	font-weight: 400;
+	top:;
+	color: white;
+  	padding: 20px;
+  	padding-bottom: 30px;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+.joinUsContent {
+	margin-top: 94px;
+	margin-bottom: 94px;
+}
+.cover-container {
+  background: url(../../../../../media/open_workspace.jpg) no-repeat center center fixed; 
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+  
+	  height: 100%;
+	  background-color: #6B79AD;
+	  color: #fff;
+	  text-align: center;
+	  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+	}
+.cover-heading {
+	position: relative;
+	top: 30%;
+	margin-top: 0px;
+	padding: 20px;
+}
+.innerCover {
+	height: 500px;
+
+}
+
+.joinSection {
+  	margin-top: 56px;
+  	margin-bottom: 94px;
+
+}
+
+
+/*  Case Studies */ 
+
+.caseTitle {
+	font-size: 1.7em;
+  	font-weight: 300;
+  	position: absolute;
+  	margin-top: -54px;
+  	padding: 10px;
+  	background-color: rgba(79, 79, 79, 0.49);
+  	margin-right: 40px;
+  	color: white;
+  	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+#theImpact {
+
+}
+.caseSummary {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	.caseProb, .caseSol, .caseRes {
+		background-color: black;
+		color: white;
+		padding: 20px;
+
+	}
+	.caseAnswer {
+		background-color: lightgrey;
+		padding: 20px;
+	}
+}
+/* Connect */
+.connectSection{
+	margin-top: 94px;
+	margin-bottom: 94px;
+
+}
+.divider {
+	margin: 25px auto 25px;
+	width: 26px;
+	height: 1px;
+	background: #dfdfdf;
+
+}
+.navbar-default .navbar-nav > .active > a {
+
+}
+
+p {
+	font-family: 'Maven Pro', sans-serif;
+}
