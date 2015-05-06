@@ -56,14 +56,19 @@
 		font-size: 3em;
 		font-weight: 400;
 		color: #FFFFFF;
-		margin-bottom: 10px;
+		margin-bottom: 30px;
 		margin-left: 20px;
   		margin-right: 20px;
 	}
+	p {
+		margin-bottom: 35px;
+	}
 	a {
-		color: #D2E3FF;
+		color: #FFFFFF;
 		font-size: 1.5em;
-		font-weight: 200;
+		font-weight: 500;
+		border-style: solid;
+		padding: 10px;
 	}
 	a:hover {
 		color: #5E9BFF;
@@ -71,7 +76,15 @@
 	}
 }
 .carousel-inner .item {
-	max-height: 700px;
+	max-height: 600px;
+	img {
+		width: 100%;
+	}
+
+}
+.dimImg {
+	opacity: .7;
+	background-color: #000;
 }
 .titleText {
 	@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
@@ -95,7 +108,6 @@
   			border-bottom-style: solid;
   			border-bottom-width: thin;
   			padding: 10px;
-  			background-color: rgba(211, 238, 247, 0.55);
   		}
   		.icon {
   			padding-left: 40%;
@@ -114,12 +126,13 @@
 		margin-bottom: 40px;
 	}	
 	img {
-		max-width: 130px;
-		max-height: 40px;
+		max-width: 184px;
+		max-height: 70px;
 		vertical-align: middle;
 		transition: all ease .55s;
 		filter: grayscale(100%);
 		-webkit-filter: grayscale(100%);
+		margin-top: 21px;
 	}
 }
 
@@ -138,8 +151,8 @@
   	color: black;
   	p {
   		font-size: 18px;
-  		margin-left: 20px;
-  		margin-right: 20px;
+  		margin-left: 40px;
+  		margin-right: 40px;
   	}
 }
 
@@ -189,15 +202,18 @@ footer {
 		margin-bottom: 30px;
 		.overlay {
 			position: absolute;
-			width: 300px;
-			height: 300px;
+			width: 263px;
+			height: 263px;
 			background:linear-gradient(45deg, #71CFC0 0, #4076ac 100%);
 	               text-align:center;
 	               padding:45px 0 66px 0;
 	               opacity:0;
 	               -webkit-transition: opacity .25s ease;
 					-moz-transition: opacity .25s ease;
-	color: white;
+			color: white;
+			h1 {
+				font-size: 1.5em;
+			}
 		}
 		:hover {
 			opacity: 1;
@@ -239,7 +255,7 @@ footer {
 	 	.work-item {
 	 		height: 550px;
 	 		.business {
-			 	background-image: url(../../../../../media/for-business-service.jpg);
+			 	background-image: url(../../../../../media/for-business-consulting-page-dark.jpg);
 			 	background-repeat: no-repeat;
 			  	background-position: center;
 			  	background-size: cover;
@@ -247,7 +263,7 @@ footer {
 			  	height: 100%;
 			 };
 	 		.government {
-			 	background-image: url(../../../../../media/for-government-services.jpg);
+			 	background-image: url(../../../../../media/For-Government-services-page-dark.jpg);
 			 	background-repeat: no-repeat;
 			  	background-position: center;
 			  	background-size: cover;
@@ -255,7 +271,7 @@ footer {
 			  	height: 100%;
 			 };
 	 		.nonprofit {
-			 	background-image: url(../../../../../media/for-nonprofit-services.jpg);
+			 	background-image: url(../../../../../media/Nonprofit-consulting-services-page-dark.jpg);
 			 	background-repeat: no-repeat;
 			  	background-position: center;
 			  	background-size: cover;
@@ -296,6 +312,22 @@ footer {
  	}
  }
 
+ /* Sub-Services */ 
+.imgHeader {
+	height: 500px;
+	margin-top: 0px;
+	color: white;
+	h1,p {
+		position: relative;
+		margin-top: 0px;
+		top: 360px;
+		font-weight: 500;
+
+
+	}
+}
+
+
 /* Join Us */
 #valuePropTitle {
 	font-weight: 400;
@@ -310,7 +342,7 @@ footer {
 	margin-bottom: 94px;
 }
 .cover-container {
-  background: url(../../../../../media/open_workspace.jpg) no-repeat center center fixed; 
+  background: url(../../../../../media/slide3.jpg) no-repeat center center fixed; 
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -344,21 +376,20 @@ footer {
 
 .caseTitle {
 	font-size: 1.7em;
-  	font-weight: 300;
+  	font-weight: 500;
   	position: absolute;
   	margin-top: -54px;
   	padding: 10px;
-  	background-color: rgba(79, 79, 79, 0.49);
   	margin-right: 40px;
   	color: white;
   	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
 #theImpact {
-
+	margin-top: 20px;
 }
 .caseSummary {
 	margin-bottom: 5px;
-	margin-top: 5px;
+	margin-top: 35px;
 	.caseProb, .caseSol, .caseRes {
 		background-color: black;
 		color: white;
@@ -389,4 +420,4 @@ footer {
 
 p {
 	font-family: 'Maven Pro', sans-serif;
-}
+} 

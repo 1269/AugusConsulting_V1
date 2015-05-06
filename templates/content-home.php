@@ -11,28 +11,28 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="media/3B802342-26EF-469F-8E73-F85CE61AA63F.jpg" alt="..." class="center-block">
+      <img src="/media/slider1.jpg" alt="..." class="center-block" width="2000" height="600" >
       <div class="carousel-caption">
         <h1 class="valuePropCaption">Augus consultants help businesses, governments and non-profits bridge the gap between business strategy and execution.</h1>
         <a href="/services">See What We Do</a>
       </div>
     </div>
     <div class="item">
-      <img src="media/3B802342-26EF-469F-8E73-F85CE61AA63F.jpg" alt="..." class="center-block">
+      <img src="/media/3B802342-26EF-469F-8E73-F85CE61AA63F.jpg" alt="..." class="center-block" width="2000" height="600">
       <div class="carousel-caption">
         <h1 class="valuePropCaption">Find out why business and IT leaders at Fortune 1000 companies look to Augus to achieve extraordinary results that "stick".</h1>
         <a href="/case-studies">Learn More</a>
       </div>
     </div>
     <div class="item">
-      <img src="media/3B802342-26EF-469F-8E73-F85CE61AA63F.jpg" alt="..." class="center-block">
+      <img src="/media/slider3.jpg" alt="..." class="center-block" width="2000" height="600">
       <div class="carousel-caption">
         <h1 class="valuePropCaption">Augus is hiring. Ready to take your management consulting career to the next level?</h1>
         <a href="/join-us">View Open Positions</a>
       </div>
     </div>
     <div class="item">
-      <img src="media/3B802342-26EF-469F-8E73-F85CE61AA63F.jpg" alt="..." class="center-block">
+      <img src="/media/slider4.jpg" alt="..." class="center-block" width="2000" height="600" style="width: 1907px; position: relative; top: -142px;">
       <div class="carousel-caption">
         <h1 class="valuePropCaption">Contact Augus for an initial discovery consultation today. It's free. </h1>
         <a href="/connect">Let's Talk</a>

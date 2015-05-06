@@ -8785,21 +8785,33 @@ button.close {
   font-size: 3em;
   font-weight: 400;
   color: #FFFFFF;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   margin-left: 20px;
   margin-right: 20px;
 }
+.carousel-caption p {
+  margin-bottom: 35px;
+}
 .carousel-caption a {
-  color: #D2E3FF;
+  color: #FFFFFF;
   font-size: 1.5em;
-  font-weight: 200;
+  font-weight: 500;
+  border-style: solid;
+  padding: 10px;
 }
 .carousel-caption a:hover {
   color: #5E9BFF;
   text-decoration: none;
 }
 .carousel-inner .item {
-  max-height: 700px;
+  max-height: 600px;
+}
+.carousel-inner .item img {
+  width: 100%;
+}
+.dimImg {
+  opacity: .7;
+  background-color: #000;
 }
 .titleText {
   @import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
@@ -8822,7 +8834,6 @@ button.close {
   border-bottom-style: solid;
   border-bottom-width: thin;
   padding: 10px;
-  background-color: rgba(211, 238, 247, 0.55);
 }
 #servicesBrief .verticals .icon {
   padding-left: 40%;
@@ -8836,12 +8847,13 @@ button.close {
   margin-bottom: 40px;
 }
 #clients img {
-  max-width: 130px;
-  max-height: 40px;
+  max-width: 184px;
+  max-height: 70px;
   vertical-align: middle;
   transition: all ease .55s;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
+  margin-top: 21px;
 }
 #testimonials {
   margin-top: 40px;
@@ -8858,8 +8870,8 @@ button.close {
 }
 #aboutBlurb p {
   font-size: 18px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 #footer {
   background-color: #e8e8e8;
@@ -8903,8 +8915,8 @@ footer #careers {
 }
 #leadership .augusLeader .overlay {
   position: absolute;
-  width: 300px;
-  height: 300px;
+  width: 263px;
+  height: 263px;
   background: linear-gradient(45deg, #71cfc0 0, #4076ac 100%);
   text-align: center;
   padding: 45px 0 66px 0;
@@ -8912,6 +8924,9 @@ footer #careers {
   -webkit-transition: opacity .25s ease;
   -moz-transition: opacity .25s ease;
   color: white;
+}
+#leadership .augusLeader .overlay h1 {
+  font-size: 1.5em;
 }
 #leadership .augusLeader :hover {
   opacity: 1;
@@ -8949,7 +8964,7 @@ footer #careers {
   height: 550px;
 }
 .services .work-item .business {
-  background-image: url(../../../../../media/for-business-service.jpg);
+  background-image: url(../../../../../media/for-business-consulting-page-dark.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -8957,7 +8972,7 @@ footer #careers {
   height: 100%;
 }
 .services .work-item .government {
-  background-image: url(../../../../../media/for-government-services.jpg);
+  background-image: url(../../../../../media/For-Government-services-page-dark.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -8965,7 +8980,7 @@ footer #careers {
   height: 100%;
 }
 .services .work-item .nonprofit {
-  background-image: url(../../../../../media/for-nonprofit-services.jpg);
+  background-image: url(../../../../../media/Nonprofit-consulting-services-page-dark.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -9004,6 +9019,19 @@ footer #careers {
 #caseStudyHeader h1 {
   position: absolute;
 }
+/* Sub-Services */
+.imgHeader {
+  height: 500px;
+  margin-top: 0px;
+  color: white;
+}
+.imgHeader h1,
+.imgHeader p {
+  position: relative;
+  margin-top: 0px;
+  top: 360px;
+  font-weight: 500;
+}
 /* Join Us */
 #valuePropTitle {
   font-weight: 400;
@@ -9018,7 +9046,7 @@ footer #careers {
   margin-bottom: 94px;
 }
 .cover-container {
-  background: url(../../../../../media/open_workspace.jpg) no-repeat center center fixed;
+  background: url(../../../../../media/slide3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -9045,18 +9073,20 @@ footer #careers {
 /*  Case Studies */
 .caseTitle {
   font-size: 1.7em;
-  font-weight: 300;
+  font-weight: 500;
   position: absolute;
   margin-top: -54px;
   padding: 10px;
-  background-color: rgba(79, 79, 79, 0.49);
   margin-right: 40px;
   color: white;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
 }
+#theImpact {
+  margin-top: 20px;
+}
 .caseSummary {
   margin-bottom: 5px;
-  margin-top: 5px;
+  margin-top: 35px;
 }
 .caseSummary .caseProb,
 .caseSummary .caseSol,
