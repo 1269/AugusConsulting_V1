@@ -1,8 +1,8 @@
-<div class="container">
+<div class="container titleShuffle">
 	<article <?php post_class(); ?>>
 		<div class="row">
 			<div class="col-sm-6">
-				<?php the_post_thumbnail('post-thumbnail', array( 'class' => "center-block img-responsive attachment-post-thumbnail")); ?>
+				<div class="imgBlog"><?php the_post_thumbnail('post-thumbnail', array( 'class' => "center-block img-responsive attachment-post-thumbnail")); ?></div>
 			</div>
 			<div class="col-sm-6">
 			<header>

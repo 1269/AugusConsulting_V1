@@ -42,6 +42,7 @@
 </div>
 
 
+
 <!-- /END THE FEATURETTES -->
 
 <?php the_content(); ?>

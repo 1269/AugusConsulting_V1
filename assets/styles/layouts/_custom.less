@@ -90,7 +90,7 @@
 	@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
 	font-family: 'Quicksand', sans-serif;
 	margin-bottom: 30px;
-	font-weight: 300;
+	font-weight: 400;
 }
 #servicesBrief {
 	padding-top: 30px;
@@ -238,7 +238,7 @@ footer {
  		margin-right: 30px;
  	}
  	color: black;
- 	background-color:white;
+ 	background-color:rgb(232, 232, 232);
  	min-height: 300px;
  	a {
  		color: white;
@@ -326,6 +326,18 @@ footer {
 
 	}
 }
+.bulletList{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	hr {
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+}
+.serviceBullets {
+	border-left-style: outset;
+	height: 270px;
+}
 
 
 /* Join Us */
@@ -373,19 +385,43 @@ footer {
 
 
 /*  Case Studies */ 
+.titleShuffle h2 {
+	margin-top: 0px;
+}
+.imgBlog {
+	width: 550px;
+  	height: 310px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	overflow: hidden;	
+  	img {
+		width: 100%;
+	}
+
+}
+
 
 .caseTitle {
-	font-size: 1.7em;
+	font-size: 3em;
   	font-weight: 500;
-  	position: absolute;
-  	margin-top: -54px;
+  	position: relative;
+  	margin-top: -89px;
   	padding: 10px;
-  	margin-right: 40px;
   	color: white;
-  	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  	text-shadow: 0 1px 2px rgba(0, 0, 0, 1);
 }
 #theImpact {
-	margin-top: 20px;
+	background-color: grey;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 15px;
+	.theNumber {
+		font-size: 7em;
+		font-weight: 100;
+	}
+	.theImpactText {
+		font-weight: 700;
+	}
 }
 .caseSummary {
 	margin-bottom: 5px;

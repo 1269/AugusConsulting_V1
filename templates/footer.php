@@ -36,7 +36,7 @@
 			<a href="/join-us">Open Positions</a>
 		</div>
 	</div>
-	<div class="text-center copyright">Augus Consulting 2015, All rights reserved.</div>
+	<div class="text-center copyright">© 2015 Augus Consulting. All rights reserved.</div>
 </div>
     <?php dynamic_sidebar('sidebar-footer'); ?>
   </div>

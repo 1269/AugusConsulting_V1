@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><img src="/acwp/media/augus-logo.png" alt="" class="img-responsive"></a>
+      <a class="navbar-brand" href="<?= esc_url(home_url('/')); ?>"><img src="http://localhost/media/augus-logo.png" alt="" class="img-responsive"></a>
     </div>
 
     <nav class="collapse navbar-collapse" role="navigation">

@@ -8817,7 +8817,7 @@ button.close {
   @import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
   font-family: 'Quicksand', sans-serif;
   margin-bottom: 30px;
-  font-weight: 300;
+  font-weight: 400;
 }
 #servicesBrief {
   padding-top: 30px;
@@ -8941,7 +8941,7 @@ footer #careers {
   padding-left: 0px;
   padding-right: 0px;
   color: black;
-  background-color: white;
+  background-color: #e8e8e8;
   min-height: 300px;
 }
 .closeServices h2,
@@ -9032,6 +9032,18 @@ footer #careers {
   top: 360px;
   font-weight: 500;
 }
+.bulletList {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.bulletList hr {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.serviceBullets {
+  border-left-style: outset;
+  height: 270px;
+}
 /* Join Us */
 #valuePropTitle {
   font-weight: 400;
@@ -9071,18 +9083,40 @@ footer #careers {
   margin-bottom: 94px;
 }
 /*  Case Studies */
+.titleShuffle h2 {
+  margin-top: 0px;
+}
+.imgBlog {
+  width: 550px;
+  height: 310px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.imgBlog img {
+  width: 100%;
+}
 .caseTitle {
-  font-size: 1.7em;
+  font-size: 3em;
   font-weight: 500;
-  position: absolute;
-  margin-top: -54px;
+  position: relative;
+  margin-top: -89px;
   padding: 10px;
-  margin-right: 40px;
   color: white;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  text-shadow: 0 1px 2px #000000;
 }
 #theImpact {
-  margin-top: 20px;
+  background-color: grey;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+#theImpact .theNumber {
+  font-size: 7em;
+  font-weight: 100;
+}
+#theImpact .theImpactText {
+  font-weight: 700;
 }
 .caseSummary {
   margin-bottom: 5px;
